@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/assets/logotipo.png">
+    <title>List days</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1> To Do List | E.B</h1>
+        <div class="input_button">
+            <input id="inputs" type="text" placeholder="enter your task">
+            <button id="add" aria-placeholder="task" onclick="add_task()"><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                    viewBox="0 0 448 512">
+                    <path
+                        d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" />
+                </svg></button>
+        </div>
+        <div class="listas">
+            <ol id="to-do-list">
+                
+            </ol>
+        </div>
+    </div>
+
+    <script src="/list.js"></script>
+</body>
+</html>
